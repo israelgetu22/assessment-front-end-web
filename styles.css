@@ -1,10 +1,18 @@
 body {
-  background: rgb(188, 189, 184);
+  background: rgb(179, 255, 0);
   margin: 1rem;
   padding: 1rem;
   max-width: 500px;
   margin: 2rem auto;
   font-family: "Open Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: bisque;
+  box-shadow: 5px 5px rgb(255, 0, 0);
 }
 
 nav {
@@ -73,4 +81,17 @@ img {
   height: 40px;
   display: inline-block;
   font-style: italic;
+}
+
+#cool {
+  font-size: 35px;
+  font-family: ;
+}
+
+footer {
+  text-align: center;
+  font-size: small;
+  position: relative;
+  bottom: 10px;
+  right: 500px;
 }

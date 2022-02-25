@@ -11,24 +11,28 @@
     <title>Homepage</title>
     <link href="styles.css" rel="stylesheet" />
   </head>
+
   <body>
-    <nav>
-      <ol>
-        <li class="crumb"><a href="./home.html">Home</a></li>
-        <li class="crumb"><a href="./profile.html">Profile</a></li>
-        <li class="crumb"><a href="./about.html">Join Israel</a></li>
-      </ol>
-    </nav>
+    <header> 
+      <nav>
+        <ol>
+          <li class="crumb"><a href="./home.html">Home</a></li>
+          <li class="crumb"><a href="./profile.html">Photos</a></li>
+          <li class="crumb"><a href="./about.html">Join Israel</a></li>
+        </ol>
+      </nav></header>
+   
 
     <content>
+      
       <h1>ISRAEL'S Profile</h1>
       <!-- insert hello world here -->
 
       <img id = "image"
-        src=" https://opensas.files.wordpress.com/2013/06/32021684.jpg"
+        src="https://thefanscotian.com/wp-content/uploads/2021/05/scrabble-931988_1920-900x598.jpg"
       />
 			<div>
-      <p><strong>Welcome to Israel Website<Strong></p>
+      <p id = 'cool'><strong>Welcome to Israel's Website<Strong></p>
 			</div>
 
     <p>I am from Ethiopia, Africa. I live in Dallas, Texas. I have 3 brothers and 2 sisters they are living
@@ -69,7 +73,21 @@
 				<label for="friend">A Friend:</label><input type="checkbox" id="friend" value="friend"/>
 				<label for="Other">Devmountain:</label><input type="checkbox" id="Other" value="Other"/>
       </form>
-    </content>
+
+    <h3 id = "nice"> Hobbies</h3>
+        <footer>
+    <img id = "image1" src="https://post.healthline.com/wp-content/uploads/2020/01/Runner-training-on-running-track-732x549-thumbnail.jpg"/>
+            <p>Running</p>
+            <button>More</button>
+
+        <img id = "image2" src="https://www.gannett-cdn.com/media/2020/03/12/USATODAY/usatsports/gettyimages-1137926593.jpg?width=660&height=429&fit=crop&format=pjpg&auto=webp"/>
+        <p>Gardening</p>
+        <button>More</button>
+        <img id = "image3" src=" https://c.ndtvimg.com/2020-04/hhauvif8_tajikistan-football-afp_625x300_26_April_20.jpg"/>
+        <p>Playing Soccer</p>
+        <button>More</button>
+    </footer>
+      </content>
     <script src="profile.js"></script>
     <script src="about.js"></script>
   </body>
