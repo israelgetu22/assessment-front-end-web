@@ -17,3 +17,13 @@ function ritual() {
 favCol.addEventListener("click", color);
 favPla.addEventListener("click", place);
 favRit.addEventListener("click", ritual);
+
+const ResBtn = document.querySelector("#res");
+const ParBtn = document.querySelector("#par");
+
+function res() {}
+
+function par() {}
+
+ResBtn.addEventListener("click", res);
+ParBtn.addEventListener("click", par);
