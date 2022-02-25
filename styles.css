@@ -43,3 +43,34 @@ img {
   position: relative;
   left: 150px;
 }
+
+/* .buttoncolor.buttonplace.buttonritual {
+  font-style: italic;
+  display: inline-block; */
+
+.buttoncolor {
+  background-color: yellow;
+  color: rgb(0, 0, 0);
+  width: 150px;
+  height: 40px;
+  display: inline-block;
+  font-style: italic;
+}
+
+.buttonplace {
+  background-color: yellow;
+  color: rgb(0, 0, 0);
+  width: 150px;
+  height: 40px;
+  display: inline-block;
+  font-style: italic;
+}
+
+.buttonritual {
+  background-color: yellow;
+  color: rgb(0, 0, 0);
+  width: 150px;
+  height: 40px;
+  display: inline-block;
+  font-style: italic;
+}
