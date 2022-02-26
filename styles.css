@@ -56,36 +56,30 @@ img {
   font-style: italic;
   display: inline-block; */
 
-.buttoncolor {
+.buttona {
   background-color: yellow;
   color: rgb(0, 0, 0);
-  width: 150px;
+  border-radius: 10px;
+  width: 170px;
   height: 40px;
+  cursor: pointer;
   display: inline-block;
   font-style: italic;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Tahoma;
+  padding: 10px 10px 10px 10px;
 }
 
-.buttonplace {
-  background-color: yellow;
-  color: rgb(0, 0, 0);
-  width: 150px;
-  height: 40px;
-  display: inline-block;
-  font-style: italic;
-}
-
-.buttonritual {
-  background-color: yellow;
-  color: rgb(0, 0, 0);
-  width: 150px;
-  height: 40px;
-  display: inline-block;
-  font-style: italic;
+.buttona:hover {
+  background-color: rgb(70, 150, 150);
+  color: rgb(255, 238, 0);
 }
 
 #cool {
   font-size: 35px;
-  font-family: ;
+  font-family: sans-serif;
 }
 
 footer {

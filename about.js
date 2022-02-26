@@ -1,4 +1,4 @@
-// console.log("hello world");
+//  console.log("hello world");
 
 // function handleSubmit(evt) {
 //   evt.preventDefault();
@@ -10,24 +10,16 @@
 
 // form.addEventListener("submit", handleSubmit);
 
+let form = document.querySelector("form#contact");
+let image = document.querySelector("img");
+
 function alertNotice(evt) {
   evt.preventDefault();
 
   alert("The form has been submitted successfully");
 }
 
-let form = document.querySelector("form#contact");
-
 form.addEventListener("submit", alertNotice);
-
-
-
-
-let image = document.getElementById("#img");
-
-image.addEventListener("mouseover", function( event ) {
-
-  //event.target = "It is Working";
-	//console.log("It is Working")
-	alert("It is NOT Working")
-};
+image.addEventListener("mouseover", function () {
+  alert("Hey You, See you there!");
+});
