@@ -10,7 +10,7 @@
 
 // form.addEventListener("submit", handleSubmit);
 
-let form = document.querySelector("form#contact");
+let form = document.querySelector("#contact");
 let image = document.querySelector("img");
 
 function alertNotice(evt) {
